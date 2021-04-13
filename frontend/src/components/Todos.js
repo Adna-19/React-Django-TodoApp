@@ -112,6 +112,7 @@ class Todos extends Component {
   render() {
     return (
       <div className="container">
+        <br />
         <form onSubmit={this.onSubmit} style={{display: "flex", marginBottom: "20px"}}>
           <input 
             type="text"
